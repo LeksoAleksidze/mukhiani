@@ -8,13 +8,13 @@ let curencyOverlay = document.querySelector('.currency-overlay');
 let gelBtn = document.getElementById('gelBtn');
 
 gelBtn.onclick = function(){
-  curencyOverlay.style.left = "8px";
+  curencyOverlay.style.left = "4px";
 }
 
 let usdBtn = document.getElementById('usdBtn');
 
 usdBtn.onclick = function(){
-  curencyOverlay.style.left = "23px";
+  curencyOverlay.style.left = "27px";
 }
 
 

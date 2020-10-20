@@ -440,7 +440,7 @@ header .right-nav .fa:hover
 #home  .find-box .find-row .curency
 {
 	border: 1px solid #b7aba4;
-	padding: 0px 7px;
+	padding: 0px 5px;
 	position: relative;
 }
 #home  .find-box .find-row .curency span
@@ -450,14 +450,15 @@ header .right-nav .fa:hover
 	font-size: 15px;
 	font-weight: 700;
 	cursor: pointer;
+	padding-right: 10px;
 }
 #home  .find-box .find-row .curency .currency-overlay
 {
-	width: 13px;
-	height: 15px;
+	width: 15px;
+	height: 17px;
 	background-color: #b7aba4;
 	position: absolute;
-	left: 8px;
+	left: 4px;
 	top: 50%;
 	transform: translateY(-50%);
 	transition: all .4s linear;
@@ -1151,6 +1152,11 @@ input[type=range]::-webkit-slider-thumb {
 	{
 		font-size: 14px;
 	}
+	.swiper-container.gallery .swiper-pagination
+	{
+		left: 38%!important;
+		bottom: 30px!important
+	}
 }
 
 @media all and ( max-width: 575px )
@@ -1208,6 +1214,11 @@ input[type=range]::-webkit-slider-thumb {
 	{
 		font-size: 10px;
 		left: -5px;
+	}
+	.swiper-container.gallery .swiper-pagination
+	{
+		left: 28%!important;
+		bottom: 30px!important
 	}
 }
 
