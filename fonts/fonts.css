@@ -1,0 +1,9 @@
+@font-face {
+    font-family:'Noto-Sans-Georgian-Bold';
+    src:url('Noto-Sans-Georgian-Bold.ttf.woff') format('woff'),
+        url('Noto-Sans-Georgian-Bold.ttf.svg#Noto-Sans-Georgian-Bold') format('svg'),
+        url('Noto-Sans-Georgian-Bold.ttf.eot'),
+        url('Noto-Sans-Georgian-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

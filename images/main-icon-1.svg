@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" width="13" height="13">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-353 -484L607 -484L607 1347L-353 1347Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="06-Alizi-Project-Block" clip-path="url(#cp1)">
+		<g id="Group 4487">
+			<g id="Group 4475">
+				<g id="Group 4474">
+					<path id="Rectangle 4890" class="shp0" d="M10.9 1.9L4.93 12.24L2.14 10.63L8.11 0.29L10.9 1.9Z" />
+					<path id="Rectangle 4891" class="shp0" d="M12.47 10.59L12.47 10.59C12.47 11.48 11.75 12.2 10.86 12.2L10.86 12.2C9.97 12.2 9.25 11.48 9.25 10.59L9.25 10.59C9.25 9.7 9.97 8.98 10.86 8.98L10.86 8.98C11.75 8.98 12.47 9.7 12.47 10.59Z" />
+					<path id="Rectangle 4892" class="shp0" d="M3.79 1.91L3.79 1.91C3.79 2.8 3.07 3.52 2.18 3.52L2.18 3.52C1.29 3.52 0.57 2.8 0.57 1.91L0.57 1.91C0.57 1.02 1.29 0.3 2.18 0.3L2.18 0.3C3.07 0.3 3.79 1.02 3.79 1.91Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

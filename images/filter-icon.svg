@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 8" width="12" height="8">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-126 -120L34 -120L34 1750L-126 1750Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="06-Alizi-Project-Block – 320" clip-path="url(#cp1)">
+		<g id="Group 5566">
+			<path id="Icon material-filter-list" class="shp0" d="M4.85 7.53L7.35 7.53L7.35 6.27L4.85 6.27L4.85 7.53ZM0.45 0L0.45 1.25L11.75 1.25L11.75 0L0.45 0ZM2.34 4.39L9.86 4.39L9.86 3.14L2.34 3.14L2.34 4.39Z" />
+		</g>
+	</g>
+</svg>

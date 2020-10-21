@@ -1,6 +1,20 @@
 
 
 
+// HEADER SCROLL TOP
+const header = document.querySelector('header');
+
+window.onscroll = function(){
+	let scrollTop = scrollY;
+
+	if( scrollTop > 50 ){
+		header.classList.add("sticky");
+	} else {
+		header.classList.remove("sticky");
+	}
+
+};
+
 
 // CURRENCY OVERLAY CHANGE
 let curencyOverlay = document.querySelector('.currency-overlay');
@@ -14,7 +28,7 @@ gelBtn.onclick = function(){
 let usdBtn = document.getElementById('usdBtn');
 
 usdBtn.onclick = function(){
-  curencyOverlay.style.left = "27px";
+  curencyOverlay.style.left = "17px";
 }
 
 
