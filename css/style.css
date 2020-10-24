@@ -52,11 +52,11 @@ header.sticky
 {
 	0%{
 		opacity: 0;
-		transform: translateY(-50px);
+		transform: translateY(-100%);
 	}
 	100%{
 		opacity: 1;
-		transform: translateY(0px);
+		transform: translateY(0%);
 	}
 }
 header .row
@@ -570,6 +570,7 @@ header .right-nav img
 	height: 10px;
 	background-color: #b7aba4;
 	border-radius: 50%;
+	cursor: pointer;
 }
 .slider > .thumb.left {
 	left: 0%;
@@ -596,7 +597,7 @@ input[type=range]::-webkit-slider-thumb {
 	height: 30px;
 	border-radius: 0;
 	border: 0 none;
-	background-color: red;
+	cursor: pointer;
 	-webkit-appearance: none;
 }
 
@@ -973,7 +974,7 @@ input[type=range]::-webkit-slider-thumb {
 {
 	color: #2d2c2b;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .footer-row .inner
 {
@@ -981,8 +982,8 @@ input[type=range]::-webkit-slider-thumb {
 }
 .footer-row .inner .icon
 {
-	width:25px;
-	height: 26px;
+	width: 21px;
+	height: 23px;
 	border: 1px solid #edaf52;
 	text-align: center;
 	line-height: 26px;
@@ -998,9 +999,9 @@ input[type=range]::-webkit-slider-thumb {
 .footer-row .inner h6
 {
 	color: #2d2c2b;
-	font-size: 13px;
+	font-size: 12px;
 	margin: 0;
-	font-weight: 700;
+	font-weight: 600;
 	padding: 0;
 }
 .footer-row .inner  p

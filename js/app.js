@@ -17,19 +17,38 @@ window.onscroll = function(){
 
 
 // CURRENCY OVERLAY CHANGE
-let curencyOverlay = document.querySelector('.currency-overlay');
+let curencyOverlay = document.querySelectorAll('.currency-overlay');
 
-let gelBtn = document.getElementById('gelBtn');
+const curenc = document.querySelectorAll('.geo-cur');
 
-gelBtn.onclick = function(){
-  curencyOverlay.style.left = "4px";
+for(let x = 0; x < curenc.length; x++){
+
+	curenc[x].addEventListener('click', ()=>{
+
+		for( let i = 0; i < curencyOverlay.length; i++){
+
+		 curencyOverlay[i].style.left = "4px";
+
+		};
+	});
 }
 
-let usdBtn = document.getElementById('usdBtn');
+const curencUsd = document.querySelectorAll('.usd-cur');
 
-usdBtn.onclick = function(){
-  curencyOverlay.style.left = "17px";
+for(let x = 0; x < curencUsd.length; x++){
+
+	curencUsd[x].addEventListener('click', ()=>{
+
+		for( let i = 0; i < curencyOverlay.length; i++){
+
+		 curencyOverlay[i].style.left = "17px";
+		 
+		};
+
+	});
 }
+
+
 
 
 // SEARCH SHOW/HIDE

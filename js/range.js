@@ -51,8 +51,6 @@ inputRight.addEventListener("input", setRightValue);
 
 
 
-
-
 // RANGE PRICE BAR TWO
 var inputLeftTwo = document.getElementById("input-leftTwo");
 var inputRighTwo = document.getElementById("input-rightTwo");
@@ -153,4 +151,3 @@ inputRighThree.addEventListener("input", setRightValueThree);
 
 
 
-  
